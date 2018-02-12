@@ -1,10 +1,87 @@
 # Configuration
 ## MPU
 
-### LPF
+- LPF: 	  4
 
--        **ACCELEROMETER:**               **GYROSCOPE:**
+<table>
+  <tr>
+    <th colspan="3">ACCELEROMETER</th>
+    <th colspan="3">GYROSCOPE</th>
+  </tr>
+  <tr>
+    <th>DLPF_CFG</th>
+    <th>Bandwidth</th>
+	<th>Delay</th>
+	<th>Bandwidth</th>
+	<th>Delay</th>
+	<th>Sample Rate</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>260Hz </td>
+    <td>0ms</td>
+	<td>256Hz</td>
+    <td>0.98ms </td>
+    <td>8kHz</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>184Hz </td>
+    <td>2.0ms</td>
+	<td>188Hz</td>
+    <td>1.9ms </td>
+    <td>1kHz</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>94Hz </td>
+    <td>3.0ms</td>
+	<td>98Hz</td>
+    <td>2.8ms </td>
+    <td>1kHz</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>44Hz </td>
+    <td>4.9ms</td>
+	<td>42Hz</td>
+    <td>4.8ms </td>
+    <td>1kHz</td>
+  </tr>
+   <tr>
+    <td>4</td>
+    <td>21Hz </td>
+    <td>8.5ms</td>
+	<td>20Hz</td>
+    <td>8.3ms </td>
+    <td>1kHz</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>10Hz </td>
+    <td>13.8ms</td>
+	<td>10Hz</td>
+    <td>13.4ms </td>
+    <td>1kHz</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>5Hz </td>
+    <td>19.0ms</td>
+	<td>5Hz</td>
+    <td>18.6ms </td>
+    <td>1kHz</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td colspan="2">Reserved </td>
+    <td colspan="3">Reserved </td>
+  </tr>
+</table>
 
+
+          ACCELEROMETER        |           GYROSCOPE
+-------------------------------|---------------------------------
  DLPF_CFG | Bandwidth | Delay  | Bandwidth | Delay  | Sample Rate
  ---------|-----------|--------|-----------|--------|-------------
  0        | 260Hz     | 0ms    | 256Hz     | 0.98ms | 8kHz
@@ -15,7 +92,7 @@
  5        | 10Hz      | 13.8ms | 10Hz      | 13.4ms | 1kHz
  6        | 5Hz       | 19.0ms | 5Hz       | 18.6ms | 1kHz
  7        | ---- Reserved ---- |------ Reserved---- | Reserved
-
+|}
 - HPF 		1
 
  ACCEL_HPF | Filter Mode | Cut-off Frequency
