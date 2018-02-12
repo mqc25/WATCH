@@ -3,18 +3,25 @@
 
 - LPF: 	  4
 
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: right;
+    padding: 8px;
+}
+
 <table>
   <tr>
-    <th colspan="3">ACCELEROMETER</th>
-    <th colspan="3">GYROSCOPE</th>
+    <th colspan="3" align="center">ACCELEROMETER</th>
+    <th colspan="3" align="center">GYROSCOPE</th>
   </tr>
   <tr>
-    <th>DLPF_CFG</th>
-    <th>Bandwidth</th>
-	<th>Delay</th>
-	<th>Bandwidth</th>
-	<th>Delay</th>
-	<th>Sample Rate</th>
+    <th align="center">DLPF_CFG</th>
+    <th align="center">Bandwidth</th>
+	<th align="center">Delay</th>
+	<th align="center">Bandwidth</th>
+	<th align="center">Delay</th>
+	<th align="center">Sample Rate</th>
   </tr>
   <tr>
     <td>0</td>
