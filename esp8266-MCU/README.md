@@ -22,6 +22,18 @@
 |}
 
 
+{|
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+
+
 
           ACCELEROMETER        |           GYROSCOPE
 -------------------------------|---------------------------------
