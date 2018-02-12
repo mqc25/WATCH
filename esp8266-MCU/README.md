@@ -1,6 +1,6 @@
 # Configuration
 ## MPU
-
+### Register configuration
 - **LPF**
 
 <table>
@@ -132,3 +132,8 @@ FF_COUNT | Counter Decrement
 - **FIFO_EN:**							enable buffer overflow interrupt
 - **MASTER_EN:**						enable master mode 
 - **RDY_EN:**							enable data ready interrupt
+
+### Basic Function:
+- **bool initMPU():** call after setup I2C pin to initialize register configuration.
+- **String getMPUReading():** get MPU reading either in String format and update ax,ay,az,gx,gy,gz.
+- **String MPU_Status():** get String report of relevant MPU register state
