@@ -1,10 +1,7 @@
 # Configuration
 ## MPU
 
-- LPF: 	  4
-
-
-
+- **LPF:**
 
 <table>
   <tr>
@@ -82,24 +79,10 @@
   </tr>
 </table>
 
-
-          ACCELEROMETER        |           GYROSCOPE
--------------------------------|---------------------------------
- DLPF_CFG | Bandwidth | Delay  | Bandwidth | Delay  | Sample Rate
- ---------|-----------|--------|-----------|--------|-------------
- 0        | 260Hz     | 0ms    | 256Hz     | 0.98ms | 8kHz
- 1        | 184Hz     | 2.0ms  | 188Hz     | 1.9ms  | 1kHz
- 2        | 94Hz      | 3.0ms  | 98Hz      | 2.8ms  | 1kHz
- 3        | 44Hz      | 4.9ms  | 42Hz      | 4.8ms  | 1kHz
- 4        | 21Hz      | 8.5ms  | 20Hz      | 8.3ms  | 1kHz
- 5        | 10Hz      | 13.8ms | 10Hz      | 13.4ms | 1kHz
- 6        | 5Hz       | 19.0ms | 5Hz       | 18.6ms | 1kHz
- 7        | ---- Reserved ---- |------ Reserved---- | Reserved
-|}
-- HPF 		1
+- **HPF:** 	
 
  ACCEL_HPF | Filter Mode | Cut-off Frequency
- ----------|-------------|------------------
+ ---------:|------------:|----------------:
  0         | Reset       | None
  1         | On          | 5Hz
  2         | On          | 2.5Hz
