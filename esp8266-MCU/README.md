@@ -112,7 +112,7 @@ Value	| ACCELEROMETER RANGE
 
 - **MOT_DUR:** LSB = 1 ms
 
-- **MOT_DECREMENT**		
+- **MOT_DECREMENT:** Decrement per sub-threshold sample		
 			
 FF_COUNT | Counter Decrement
 ---------|------------------
