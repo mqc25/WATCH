@@ -1,0 +1,8 @@
+# iBeacon
+
+## Format
+
+Prefix|UUID|Major|Minor|Tx Power|
+------|----|-----|-----|--------|
+9 bytes|16 bytes|2 bytes|2 bytes|1 bytes| 
+0x02,0x01,0x06,0x1a,0xff,0x4c,0x00,0x02,0x15|
