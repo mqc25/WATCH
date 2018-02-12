@@ -2,6 +2,8 @@
 ## MPU
 
 - LPF: 	  4
+
+
 {| !ACCELEROMETER !GYROSCOPE|-
 !DLPF_CFG !Bandwidth !Delay !Bandwidth !Delay !Sample Rate |-
 |0|260Hz|0ms|256Hz|0.98ms|8kHz|-
