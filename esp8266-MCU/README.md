@@ -1,7 +1,7 @@
 # Configuration
 ## MPU
 
-- **LPF:**
+- **LPF**
 
 <table>
   <tr>
@@ -79,7 +79,7 @@
   </tr>
 </table>
 
-- **HPF:** 	
+- **HPF** 	
 
  ACCEL_HPF | Filter Mode | Cut-off Frequency
  ---------:|------------:|----------------:
@@ -90,15 +90,16 @@
  4         | On          | 0.63Hz
  7         | Hold        | None
 
-- GYRO_RNG 	2
+- **GYRO_RNG** 	
 
 Value	| GYROSCOPE RANGE
+--------|--------------------
 0 		| +/- 250 degrees/sec
 1 		| +/- 500 degrees/sec
 2 		| +/- 1000 degrees/sec
 3 		| +/- 2000 degrees/sec
 	
-- ACC_RNG 	3
+- **ACC_RNG**
 
 Value	| ACCELEROMETER RANGE
 --------|--------------------
@@ -107,10 +108,11 @@ Value	| ACCELEROMETER RANGE
 2 		| +/- 8g
 3 		| +/- 16g
 
-- MOT_THRESHOLD 	5				LSB = 1 mg
-- MOT_DUR			10				LSB = 1 ms
+- **MOT_THRESHOLD:** LSB = 1 mg
 
-- MOT_DECREMENT	1		
+- **MOT_DUR:** LSB = 1 ms
+
+- **MOT_DECREMENT**		
 			
 FF_COUNT | Counter Decrement
 ---------|------------------
@@ -119,14 +121,14 @@ FF_COUNT | Counter Decrement
 2        | 2
 3        | 4
  
-- INT_MODE		1					push-pull / open-drain
-- INT_LATCH		1					50 us pulse / active 
-- INT_EN		1					enable interrupt
-- LATCH_CLR		0					clear by read status / clear by read any
+- **INT_MODE:**							push-pull / open-drain
+- **INT_LATCH:**						50 us pulse / active 
+- **LATCH_CLR:**						clear by read status / clear by read any
 
-- FF_EN			0					enable free fall interrupt
-- MOT_EN		1					enable motion interrupt
-- ZERO_EN		0					enable zero motion interrupt
-- FIFO_EN		0					enable buffer overflow interrupt
-- MASTER_EN		0					enable master mode 
-- RDY_EN		0					enable data ready interrupt
+- **INT_EN:**							enable interrupt
+- **FF_EN:**							enable free fall interrupt
+- **MOT_EN:**							enable motion interrupt
+- **ZERO_EN:**							enable zero motion interrupt
+- **FIFO_EN:**							enable buffer overflow interrupt
+- **MASTER_EN:**						enable master mode 
+- **RDY_EN:**							enable data ready interrupt
