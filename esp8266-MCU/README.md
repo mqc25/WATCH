@@ -5,9 +5,6 @@
 
 
 {| 
-!ACCELEROMETER 
-!GYROSCOPE
-|-
 !DLPF_CFG 
 !Bandwidth 
 !Delay 
