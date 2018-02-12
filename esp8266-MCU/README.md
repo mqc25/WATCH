@@ -4,6 +4,7 @@
 - LPF: 	  4
 
           ACCELEROMETER        |           GYROSCOPE
+-------------------------------|---------------------------------
  DLPF_CFG | Bandwidth | Delay  | Bandwidth | Delay  | Sample Rate
  ---------|-----------|--------|-----------|--------|-------------
  0        | 260Hz     | 0ms    | 256Hz     | 0.98ms | 8kHz
@@ -13,7 +14,7 @@
  4        | 21Hz      | 8.5ms  | 20Hz      | 8.3ms  | 1kHz
  5        | 10Hz      | 13.8ms | 10Hz      | 13.4ms | 1kHz
  6        | 5Hz       | 19.0ms | 5Hz       | 18.6ms | 1kHz
- 7        |   -- Reserved --   |   -- Reserved --   | Reserved
+ 7        | ---- Reserved ---- |------ Reserved---- | Reserved
 
 - HPF 		1
 
@@ -28,17 +29,20 @@
 
 - GYRO_RNG 	2
 
-0 = +/- 250 degrees/sec
-1 = +/- 500 degrees/sec
-2 = +/- 1000 degrees/sec
-3 = +/- 2000 degrees/sec
-
+Value	| GYROSCOPE RANGE
+0 		|+/- 250 degrees/sec
+1 		|+/- 500 degrees/sec
+2 		| +/- 1000 degrees/sec
+3 		| +/- 2000 degrees/sec
+	
 - ACC_RNG 	3
 
-0 = +/- 2g
-1 = +/- 4g
-2 = +/- 8g
-3 = +/- 16g
+Value	| ACCELEROMETER RANGE
+--------|--------------------
+0 		| +/- 2g
+1 		| +/- 4g
+2 		| +/- 8g
+3 		| +/- 16g
 
 - MOT_THRESHOLD 	5				LSB = 1 mg
 - MOT_DUR			10				LSB = 1 ms
