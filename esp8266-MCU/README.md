@@ -4,11 +4,7 @@
 - LPF: 	  4
 
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: right;
-    padding: 8px;
-}
+
 
 <table>
   <tr>
@@ -24,65 +20,65 @@ td, th {
 	<th align="center">Sample Rate</th>
   </tr>
   <tr>
-    <td>0</td>
-    <td>260Hz </td>
-    <td>0ms</td>
-	<td>256Hz</td>
-    <td>0.98ms </td>
-    <td>8kHz</td>
+    <td align="right">0</td>
+    <td align="right">260Hz </td>
+    <td align="right">0ms</td>
+	<td align="right">256Hz</td>
+    <td align="right">0.98ms </td>
+    <td align="right">8kHz</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>184Hz </td>
-    <td>2.0ms</td>
-	<td>188Hz</td>
-    <td>1.9ms </td>
-    <td>1kHz</td>
+    <td align="right">1</td>
+    <td align="right">184Hz </td>
+    <td align="right">2.0ms</td>
+	<td align="right">188Hz</td>
+    <td align="right">1.9ms </td>
+    <td align="right">1kHz</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>94Hz </td>
-    <td>3.0ms</td>
-	<td>98Hz</td>
-    <td>2.8ms </td>
-    <td>1kHz</td>
+    <td align="right">2</td>
+    <td align="right">94Hz </td>
+    <td align="right">3.0ms</td>
+	<td align="right">98Hz</td>
+    <td align="right">2.8ms </td>
+    <td align="right">1kHz</td>
   </tr>
   <tr>
-    <td>3</td>
-    <td>44Hz </td>
-    <td>4.9ms</td>
-	<td>42Hz</td>
-    <td>4.8ms </td>
-    <td>1kHz</td>
+    <td align="right">3</td>
+    <td align="right">44Hz </td>
+    <td align="right">4.9ms</td>
+	<td align="right">42Hz</td>
+    <td align="right">4.8ms </td>
+    <td align="right">1kHz</td>
   </tr>
    <tr>
-    <td>4</td>
-    <td>21Hz </td>
-    <td>8.5ms</td>
-	<td>20Hz</td>
-    <td>8.3ms </td>
-    <td>1kHz</td>
+    <td align="right">4</td>
+    <td align="right">21Hz </td>
+    <td align="right">8.5ms</td>
+	<td align="right">20Hz</td>
+    <td align="right">8.3ms </td>
+    <td align="right">1kHz</td>
   </tr>
   <tr>
-    <td>5</td>
-    <td>10Hz </td>
-    <td>13.8ms</td>
-	<td>10Hz</td>
-    <td>13.4ms </td>
-    <td>1kHz</td>
+    <td align="right">5</td>
+    <td align="right">10Hz </td>
+    <td align="right">13.8ms</td>
+	<td align="right">10Hz</td>
+    <td align="right">13.4ms </td>
+    <td align="right">1kHz</td>
   </tr>
   <tr>
-    <td>6</td>
-    <td>5Hz </td>
-    <td>19.0ms</td>
-	<td>5Hz</td>
-    <td>18.6ms </td>
-    <td>1kHz</td>
+    <td align="right">6</td>
+    <td align="right">5Hz </td>
+    <td align="right">19.0ms</td>
+	<td align="right">5Hz</td>
+    <td align="right">18.6ms </td>
+    <td align="right">1kHz</td>
   </tr>
   <tr>
-    <td>7</td>
-    <td colspan="2">Reserved </td>
-    <td colspan="3">Reserved </td>
+    <td align="right">7</td>
+    <td align="center" colspan="2">Reserved </td>
+    <td align="center" colspan="3">Reserved </td>
   </tr>
 </table>
 
