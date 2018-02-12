@@ -2,6 +2,12 @@
 ## MPU
 
 - LPF: 	  4
+{| !ACCELEROMETER !GYROSCOPE|-
+!DLPF_CFG !Bandwidth !Delay !Bandwidth !Delay !Sample Rate |-
+|0|260Hz|0ms|256Hz|0.98ms|8kHz|-
+|}
+
+
 
           ACCELEROMETER        |           GYROSCOPE
 -------------------------------|---------------------------------
@@ -15,7 +21,7 @@
  5        | 10Hz      | 13.8ms | 10Hz      | 13.4ms | 1kHz
  6        | 5Hz       | 19.0ms | 5Hz       | 18.6ms | 1kHz
  7        | ---- Reserved ---- |------ Reserved---- | Reserved
-
+|}
 - HPF 		1
 
  ACCEL_HPF | Filter Mode | Cut-off Frequency
@@ -30,8 +36,8 @@
 - GYRO_RNG 	2
 
 Value	| GYROSCOPE RANGE
-0 		|+/- 250 degrees/sec
-1 		|+/- 500 degrees/sec
+0 		| +/- 250 degrees/sec
+1 		| +/- 500 degrees/sec
 2 		| +/- 1000 degrees/sec
 3 		| +/- 2000 degrees/sec
 	
